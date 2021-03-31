@@ -4,7 +4,7 @@ FROM launcher.gcr.io/google/nodejs
 # Copy application code.
 COPY . /app/
 
-# Change the working directory
+# Change the working directory version 2
 WORKDIR /app
 
 # Install dependencies.
